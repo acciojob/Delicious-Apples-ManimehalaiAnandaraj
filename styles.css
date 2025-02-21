@@ -5,6 +5,7 @@
 	width:200px;
 	background-color:lawngreen;
 	padding:10px;
+	order:1;
 }
 .photo-main{
 height:200px;
@@ -41,6 +42,9 @@ height:200px;
 	background-color:white;
 	height:500px;
 	width:300px;
+	order:2;
+	display:flex;
+	flex-direction:column;
 }
 
 .benifits{
@@ -52,9 +56,10 @@ height:200px;
 }
 .photo-album{
 	display:flex;
-	flex-direction:row;
+	flex-direction:column;
 }
-.controls,.photo-main,.photo-container,.product__photo,.photo-album{
+.controls{
 	display:flex;
+	flex-direction:column;
 	
 }
