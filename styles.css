@@ -1,5 +1,5 @@
 /* your code here */
-*{}
+*{ background-color:lightgreen;}
 .ga{
 	height:200px;
 	width:200px;
@@ -23,9 +23,15 @@ height:200px;
 	color:red;
 }
 
-.title,.price,.sp,.va{
+.title{
 	background-color:white;
 	padding:10px;
+	display:flex;
+	flex-direction:column;
+}
+.ta,.ca{
+	display:flex;
+	flex-direction:row;
 }
 .variant{
 	display:flex;
@@ -50,7 +56,11 @@ height:200px;
 .benifits{
 	background-color:white;
 }
-.photo-container,.photo-main,.variant,.price
+.photo-main{
+	display:flex;
+	flex-direction:column;
+}
+.photo-container
 {
 	background-color:white;
 }
