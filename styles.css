@@ -1,15 +1,15 @@
 /* your code here */
 *{ background-color:lightgreen;}
 .ga{
-	height:200px;
-	width:200px;
+	height:300px;
+	width:300px;
 	background-color:lawngreen;
 	padding:10px;
 
 }
 .photo-main{
-height:200px;
-	width:200px;
+height:300px;
+	width:300px;
 	display:flex;
 	flex-direction:column;
 	
