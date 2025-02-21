@@ -1,9 +1,8 @@
 /* your code here */
-*
-}
+*{}
 .ga{
-	height:100px;
-	width:100px;
+	height:200px;
+	width:200px;
 	background-color:lawngreen;
 	padding:10px;
 }
@@ -11,7 +10,7 @@
 height:200px;
 	width:200px;
 	display:flex;
-	flex-direction:bottom;
+	flex-direction:column;
 	
 }
 .price{
@@ -44,7 +43,7 @@ height:200px;
 	width:300px;
 }
 
-.benifit{
+.benifits{
 	background-color:white;
 }
 .photo-container,.photo-main,.variant,.price
