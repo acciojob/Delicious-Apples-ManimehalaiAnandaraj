@@ -1,1 +1,54 @@
 /* your code here */
+*{
+	background-color:lightgreen;
+}
+.ga{
+	height:300px;
+	width:200px;
+	background-color:lawngreen;
+	padding:10px;
+}
+.product{
+display:flex;
+	flex-direction:row;
+	background-color:white;
+}
+.price{
+	color:red;
+}
+.sp{
+	font-size:30px;
+	color:red;
+}
+#appvar{
+	display:flex;
+	height:100px;
+	width:100px;
+
+}
+.title,.price,.sp,.va{
+	background-color:white;
+	padding:10px;
+}
+.variant{
+		display:felx;
+	flex-direction:column;
+	background-color:white;
+}
+.photo-album{
+	display:felx;
+	flex-direction:column;
+	background-color:white;
+}
+.product__info{
+	background-color:white;
+	height:500px;
+	width:300px;
+}
+#sel,#del,#li1,#li2,#li3,#li4,#beni{
+	background-color:white;
+}
+.photo-container,.photo-main,.photo-album,.variant,.price
+{
+	background-color:white;
+}
