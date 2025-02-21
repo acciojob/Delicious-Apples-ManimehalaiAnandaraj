@@ -10,8 +10,7 @@
 }
 .product{
 display:flex;
-	flex-direction:row;
-	background-color:white;
+	
 }
 .price{
 	color:red;
@@ -22,8 +21,7 @@ display:flex;
 }
 #appvar{
 	display:flex;
-	height:100px;
-	width:100px;
+
 
 }
 .title,.price,.sp,.va{
@@ -31,9 +29,10 @@ display:flex;
 	padding:10px;
 }
 .variant{
-		display:felx;
+	display:flex;
 	flex-direction:column;
-	background-color:white;
+
+
 }
 .photo-album{
 	display:felx;
@@ -48,7 +47,15 @@ display:flex;
 #sel,#del,#li1,#li2,#li3,#li4,#beni{
 	background-color:white;
 }
-.photo-container,.photo-main,.photo-album,.variant,.price
+.photo-container,.photo-main,.variant,.price
 {
 	background-color:white;
+}
+.photo-album{
+	display:flex;
+	flex-direction:column;
+}
+.controls,.photo-main,.photo-container,.product__photo,.photo-album{
+	display:flex;
+	flex-direction:column;
 }
