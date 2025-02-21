@@ -1,5 +1,6 @@
 /* your code here */
-*{ background-color:lightgreen;}
+*{ 
+}
 .ga{
 	height:300px;
 	width:300px;
@@ -12,15 +13,18 @@ height:300px;
 	width:300px;
 	display:flex;
 	flex-direction:column;
+	background-color:white;
 	
 }
 .price{
 	color:red;
 	font-size:20px;
+	background-color:white;
 }
 .sp{
 	font-size:30px;
 	color:red;
+	background-color:white;
 }
 
 .title{
@@ -32,10 +36,12 @@ height:300px;
 .ta,.ca{
 	display:flex;
 	flex-direction:row;
+	background-color:white;
 }
 .variant{
 	display:flex;
 	flex-direction:column;
+	background-color:white;
 
 
 }
@@ -55,6 +61,7 @@ height:300px;
 .product{
 	display:flex;
 	flex-direction:row;
+	background-color:white;
 }
 
 .benifits{
@@ -63,6 +70,7 @@ height:300px;
 .photo-main{
 	display:flex;
 	flex-direction:column;
+	background-color:white;
 }
 .photo-container
 {
@@ -71,12 +79,15 @@ height:300px;
 .photo-album{
 	display:flex;
 	flex-direction:column;
+	background-color:white;
 }
 .product__photo{
 	order:1;
+	background-color:white;
 }
 .controls{
 	display:flex;
 	flex-direction:column;
+	background-color:white;
 	
 }
